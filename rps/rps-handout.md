@@ -1,13 +1,20 @@
-Absolutely — here's a **student-facing handout** that:
-
-* **Explains** the accessibility and responsiveness fixes.
-* **Walks through changes step by step**.
-* **Includes AI collaboration** in the form of a sample conversation.
-* **Encourages reflection** with prompts and discussion questions.
-
+---
+title: "🧠 Improving the Rock, Paper, Scissors Game: A Minimal Accessibility & Responsiveness Fix"
+subtitle: "Post-Assignment Learning Resource for ISYS3004"
+author: "ISYS3004 Business Web and Mobile Technologies"
+format: 
+  pdf:
+      toc: false
+      colorlinks: true
+  docx:
+      toc: false
+      highlight-style: github
+  html:
+      toc: true
+      toc-expand: 2
+      embed-resources: true
 ---
 
-# 🧠 Improving the Rock, Paper, Scissors Game: A Minimal Accessibility & Responsiveness Fix
 
 ## ✨ Overview
 

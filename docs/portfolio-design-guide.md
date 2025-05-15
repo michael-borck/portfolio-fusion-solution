@@ -1,5 +1,19 @@
-# Portfolio Website Design Guide
-## Post-Assignment Learning Resource for ISYS3004
+---
+title: "Portfolio Website Design Guide"
+subtitle: "Post-Assignment Learning Resource for ISYS3004"
+author: "ISYS3004 Business Web and Mobile Technologies"
+format: 
+  pdf:
+      toc: false
+      colorlinks: true
+  docx:
+      toc: false
+      highlight-style: github
+  html:
+      toc: true
+      toc-expand: 2
+      embed-resources: true
+---
 
 ## Introduction
 

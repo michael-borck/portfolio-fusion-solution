@@ -1,4 +1,19 @@
-# 📰 RSS Reader: Fetching Data the Accessible & Responsive Way
+---
+title: "📰 RSS Reader: Fetching Data the Accessible & Responsive Way"
+subtitle: "Post-Assignment Learning Resource for ISYS3004"
+author: "ISYS3004 Business Web and Mobile Technologies"
+format: 
+  pdf:
+      toc: false
+      colorlinks: true
+  docx:
+      toc: false
+      highlight-style: github
+  html:
+      toc: true
+      toc-expand: 2
+      embed-resources: true
+---
 
 ## ✨ Overview
 

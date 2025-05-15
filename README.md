@@ -37,8 +37,11 @@ portfolio-site/
 ├── rps/                    # Rock Paper Scissors project files
 ├── flatland/               # Flatland Business Advisor project files
 ├── rss/                    # RSS Reader project files
-├── README.md               # This file
-└── portfolio-design-guide.md  # Learning resource explaining implementation
+├── docs/                   # Documentation files
+│   ├── assignment.pdf      # Original assignment specification
+│   └── portfolio-design-guide.md  # Implementation guide and explanation
+├── LICENSE                 # MIT license file
+└── README.md               # This file
 ```
 
 ## Technologies Used
@@ -91,7 +94,8 @@ The portfolio includes numerous accessibility enhancements:
 
 This repository includes learning materials to help understand the implementation:
 
-- [Portfolio Design Guide](portfolio-design-guide.md): Detailed explanation of design decisions, code techniques, and best practices used in this project
+- [Portfolio Design Guide](docs/portfolio-design-guide.md): Detailed explanation of design decisions, code techniques, and best practices used in this project
+- [Assignment Specification](docs/assignment.pdf): Original assignment requirements that this solution addresses
 
 ## Learning Goals Demonstrated
 
