@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSS Feed Reader</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="RSS Feed Reader project demonstrating API usage and dynamic content loading">
+</head>
+<body>
+  <!-- Accessible skip link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <div class="header-container">
+      <h1>RSS Feed Reader</h1>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+    <nav id="main-nav" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="basic.html">Basic Webpage</a></li>
+        <li><a href="rps.html">Rock Paper Scissors</a></li>
+        <li><a href="flatland.html">Flatland Advisor</a></li>
+        <li><a href="rss.html" aria-current="page">RSS Reader</a></li>
+        <li><button id="contrast-toggle" aria-label="Toggle high contrast mode">
+          <span class="contrast-icon" aria-hidden="true">🌓</span>
+        </button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+    <section class="project-info">
+      <h2>RSS Feed Reader</h2>
+      <p>A web application that fetches and displays RSS feeds using JavaScript's fetch API, XML parsing, and dynamic content generation techniques.</p>
+    </section>
+
+    <section class="project-preview">
+      <h2>Live Preview</h2>
+      <div class="iframe-container">
+        <iframe src="rss/index.html" title="RSS Feed Reader" role="region" tabindex="0" aria-label="Embedded project RSS Feed Reader"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 My Portfolio | Student: ISYS3004</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

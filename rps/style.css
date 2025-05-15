@@ -1,0 +1,64 @@
+body {
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 10px solid red;
+  max-width: 400px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.instruction {
+  font-size: 0.9em;
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.circle {
+  background: red;
+  color: white;
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  cursor: pointer;
+  flex: 1 0 25%;
+  max-width: 80px;
+}
+
+.circle:hover,
+.circle:focus {
+  background-color: #555;
+  outline: 2px solid #000;
+}
+
+#result {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Responsive tweak for small screens */
+@media (max-width: 500px) {
+  .circle {
+    font-size: 2rem;
+    padding: 0.8rem 1rem;
+    max-width: 70px;
+  }
+
+  body {
+    border-width: 6px;
+  }
+}
+
+

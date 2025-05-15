@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Student portfolio showcasing web development projects using HTML, CSS, and JavaScript">
+</head>
+<body>
+  <!-- Accessible skip link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <div class="header-container">
+      <h1>My Portfolio</h1>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+    <nav id="main-nav" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="basic.html">Basic Webpage</a></li>
+        <li><a href="rps.html">Rock Paper Scissors</a></li>
+        <li><a href="flatland.html">Flatland Advisor</a></li>
+        <li><a href="rss.html">RSS Reader</a></li>
+        <li><button id="contrast-toggle" aria-label="Toggle high contrast mode">
+          <span class="contrast-icon" aria-hidden="true">🌓</span>
+        </button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Web Development Portfolio</h2>
+        <p>Hello! I'm a student, developer, and small business consultant. This portfolio showcases four projects built using HTML, CSS, and JavaScript. Each project demonstrates fundamental web development concepts and AI-enhanced coding practices.</p>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="card-container">
+        <!-- Project cards -->
+        <article class="card">
+          <div class="card-content">
+            <h3>Basic Webpage</h3>
+            <p>A simple, responsive webpage demonstrating core HTML and CSS concepts.</p>
+            <a href="basic.html" class="btn" aria-label="View Basic Webpage project">View Project</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>Rock Paper Scissors</h3>
+            <p>An interactive game built with JavaScript demonstrating DOM manipulation and event handling.</p>
+            <a href="rps.html" class="btn" aria-label="View Rock Paper Scissors project">View Project</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>Flatland Advisor</h3>
+            <p>A business advisory tool that shows form handling and data visualization techniques.</p>
+            <a href="flatland.html" class="btn" aria-label="View Flatland Advisor project">View Project</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>RSS Feed Reader</h3>
+            <p>A web application that fetches and displays RSS feeds using JavaScript fetch API.</p>
+            <a href="rss.html" class="btn" aria-label="View RSS Feed Reader project">View Project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 My Portfolio | Student: ISYS3004</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

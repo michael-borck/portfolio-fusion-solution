@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Rock Paper Scissors game project demonstrating JavaScript interactivity">
+</head>
+<body>
+  <!-- Accessible skip link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <div class="header-container">
+      <h1>Rock Paper Scissors</h1>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+    <nav id="main-nav" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="basic.html">Basic Webpage</a></li>
+        <li><a href="rps.html" aria-current="page">Rock Paper Scissors</a></li>
+        <li><a href="flatland.html">Flatland Advisor</a></li>
+        <li><a href="rss.html">RSS Reader</a></li>
+        <li><button id="contrast-toggle" aria-label="Toggle high contrast mode">
+          <span class="contrast-icon" aria-hidden="true">🌓</span>
+        </button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+    <section class="project-info">
+      <h2>Rock Paper Scissors</h2>
+      <p>An interactive game built with JavaScript demonstrating DOM manipulation, event handling, and game logic implementation for an engaging user experience.</p>
+    </section>
+
+    <section class="project-preview">
+      <h2>Live Preview</h2>
+      <div class="iframe-container">
+        <iframe src="rps/index.html" title="Rock Paper Scissors" role="region" tabindex="0" aria-label="Embedded project Rock Paper Scissors"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 My Portfolio | Student: ISYS3004</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
