@@ -8,9 +8,9 @@ The portfolio showcases four web development projects embedded within a modern, 
 
 ### Live Demo
 
-[View the live demo](https://your-netlify-url-here.netlify.app/) <!-- Update with actual Netlify URL -->
+[View the live demo](https://web-portfolio-fusion.netlify.app/) 
 
-![Portfolio Screenshot](screenshot.png) <!-- Consider adding a screenshot image -->
+![Portfolio Screenshot](screenshot.png) 
 
 ## Features
 
