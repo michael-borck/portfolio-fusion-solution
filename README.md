@@ -1,5 +1,9 @@
 # Portfolio Fusion: AI-Assisted Web Development
 
+<!-- BADGES:START -->
+[![accessibility](https://img.shields.io/badge/-accessibility-blue?style=flat-square)](https://github.com/topics/accessibility) [![css](https://img.shields.io/badge/-css-1572b6?style=flat-square)](https://github.com/topics/css) [![css-flexbox](https://img.shields.io/badge/-css--flexbox-blue?style=flat-square)](https://github.com/topics/css-flexbox) [![css-grid](https://img.shields.io/badge/-css--grid-blue?style=flat-square)](https://github.com/topics/css-grid) [![html](https://img.shields.io/badge/-html-e34f26?style=flat-square)](https://github.com/topics/html) [![javascript](https://img.shields.io/badge/-javascript-f7df1e?style=flat-square)](https://github.com/topics/javascript) [![responsive-design](https://img.shields.io/badge/-responsive--design-blue?style=flat-square)](https://github.com/topics/responsive-design) [![semantic-html](https://img.shields.io/badge/-semantic--html-blue?style=flat-square)](https://github.com/topics/semantic-html) [![vanilla-javascript](https://img.shields.io/badge/-vanilla--javascript-blue?style=flat-square)](https://github.com/topics/vanilla-javascript) [![wcag](https://img.shields.io/badge/-wcag-blue?style=flat-square)](https://github.com/topics/wcag)
+<!-- BADGES:END -->
+
 ## Project Overview
 
 This repository contains a model solution for the ISYS3004 Business Web and Mobile Technologies course assignment. It demonstrates a responsive, accessible portfolio website built using vanilla HTML, CSS, and JavaScript.
